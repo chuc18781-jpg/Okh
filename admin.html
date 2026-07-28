@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Shop</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>👑 ADMIN SHOP</h1>
+<p>Quản lý tài khoản game</p>
+</header>
+
+<main>
+  
+  <div class="card">
+    
+    <h2>➕ Thêm Acc</h2>
+    
+    <input id="tenacc" type="text" placeholder="Tên Acc"><br><br>
+    
+    <select id="game">
+      <option>Free Fire</option>
+      <option>Blox Fruits</option>
+    </select><br><br>
+    
+    <input id="gia" type="number" placeholder="Giá"><br><br>
+    
+    <input id="anh" type="text" placeholder="Link ảnh"><br><br>
+    
+    <button onclick="themAcc()">➕ Thêm Acc</button>
+    
+    <hr><br>
+    
+    <h2>📦 Danh sách Acc</h2>
+    
+    <div id="danhsach"></div>
+    
+  </div>
+  
+</main>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
+
